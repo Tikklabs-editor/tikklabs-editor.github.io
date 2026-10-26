@@ -1,23 +1,26 @@
 {{/* (Edited by Win-AG웅) */}}
-{{ $pinnedPosts := where (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) "Params.pinned" true }}
+{{ $pinnedPosts := where .Site.RegularPages "Params.pinned" true }}
 {{ $recentPosts := where (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) "Params.pinned" "!=" true }}
 
 {{/* 1. Pinned 컨텐츠 영역 */}}
 {{ if gt (len $pinnedPosts) 0 }}
   <div class="mb-10">
-    <h2 class="mt-8 text-2xl font-extrabold mb-6">Featured</h2>
+    <h2 class="mt-8 text-2xl font-extrabold mb-6">{{ i18n "home.start_here" }}</h2>
     <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
       {{ range $pinnedPosts }}
         {{ partial "article-link/card.html" . }}
       {{ end }}
     </section>
   </div>
+  {{ with .Site.GetPage "guides" }}
+    <p class="mt-6"><a class="underline" href="{{ .RelPermalink }}">{{ i18n "home.all_guides" }}</a></p>
+  {{ end }}
   <hr class="my-12 border-neutral-300 dark:border-neutral-700" />
 {{ end }}
 
 {{/* 2. 최근 컨텐츠 영역 */}}
 <div class="mb-10">
-  <h2 class="mt-8 text-2xl font-extrabold mb-6">Recent</h2>
+  <h2 class="mt-8 text-2xl font-extrabold mb-6">{{ i18n "home.recent" }}</h2>
   <section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
     {{ range first 6 $recentPosts }}
       {{ partial "article-link/card.html" . }}

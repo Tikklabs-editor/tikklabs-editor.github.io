@@ -5,17 +5,15 @@ date: 2026-03-30
 type: "page"
 ---
 
-# About Tikklabs
+## Small discoveries, useful changes
 
-**Tikklabs Editor** is the editorial byline for Tikklabs, covering IT tools, productivity, and practical troubleshooting.
+Tikklabs combines TIKKLES and Labs. TIKKLES comes from the Korean saying about gathering tiny specks into a mountain: small tools, settings and pieces of knowledge can create substantial value when connected well.
 
-## Topics
+This is a space to experiment and record what works. Our current focus is IT, with practical guidance that helps readers solve problems and save time, money and attention.
 
-- **Digital wellbeing:** organize work around notifications, feeds and AI
-- **Local AI:** tools on existing hardware, subscription costs and model licenses
-- **Free blog operations:** verified publishing, search and multilingual troubleshooting
+**Tikklabs Editor** is our shared byline for Korean and English content.
 
-Find the related articles in our [topic guides](/guides/).
+To find something to read, explore the [starting guides and recent posts on our homepage](/).
 
 ## Editorial principles
 

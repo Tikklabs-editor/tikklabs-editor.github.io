@@ -1,3 +1,8 @@
 # (Edited by Win-AG웅)
 article:
   view_full_series: "전체 시리즈 목록 및 안내 보기 →"
+
+home:
+  start_here: "처음이라면 여기부터"
+  recent: "최근 글"
+  all_guides: "다른 주제의 시작 가이드 보기 →"

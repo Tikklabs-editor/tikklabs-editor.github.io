@@ -1,3 +1,8 @@
 # (Edited by Win-AG웅)
 article:
   view_full_series: "View full series list & guide →"
+
+home:
+  start_here: "Start here"
+  recent: "Recent posts"
+  all_guides: "Explore all topic guides →"

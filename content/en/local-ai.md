@@ -4,6 +4,7 @@ description: "Understand local AI, open-source AI, practical benefits and limita
 date: 2026-10-05T14:20:00+09:00
 lastmod: 2026-10-05T14:20:00+09:00
 draft: false
+pinned: true
 authors: ["tikklabs-editor"]
 categories: ["Local AI"]
 tags: ["Local AI", "ComfyUI", "Generative AI"]

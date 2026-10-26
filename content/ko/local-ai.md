@@ -4,6 +4,7 @@ description: "로컬 AI와 오픈소스 AI의 차이, 실제 이득과 한계, �
 date: 2026-10-05T14:20:00+09:00
 lastmod: 2026-10-05T14:20:00+09:00
 draft: false
+pinned: true
 authors: ["tikklabs-editor"]
 categories: ["Local AI"]
 tags: ["Local AI", "ComfyUI", "Generative AI"]
