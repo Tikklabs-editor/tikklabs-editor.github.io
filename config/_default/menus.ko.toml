@@ -18,3 +18,8 @@
   name = "Contact"
   url = "/ko/contact/"
   weight = 40
+
+[[main]]
+  name = "주제별 가이드"
+  pageRef = "guides"
+  weight = 15

@@ -18,3 +18,8 @@
   name = "Contact"
   url = "/contact/"
   weight = 40
+
+[[main]]
+  name = "Guides"
+  pageRef = "guides"
+  weight = 15

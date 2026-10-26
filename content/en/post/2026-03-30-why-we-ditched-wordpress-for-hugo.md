@@ -1,30 +1,80 @@
 ---
-title: "Why We Ditched WordPress for Hugo: Advanced SEO Architecture Guide (2026)"
+title: "Hugo vs WordPress: How We Run a Bilingual Blog on GitHub Pages"
 date: 2026-03-30
-author: "Tikklabs Editor"
-tags: ["SEO", "Hugo", "Web Performance", "Architecture"]
-categories: ["Tech"]
-featured: true
-cover:
- image: "/images/hugo_vs_wp.png"
- alt: "Futuristic data core representing Hugo outperforming a rusty monolithic gear representing WordPress"
+lastmod: 2026-10-05T13:46:25+09:00
+draft: false
+authors: ["tikklabs-editor"]
+categories: ["Blog Operations"]
+tags: ["Hugo", "GitHub Pages", "SEO"]
+slug: "2026-03-30-why-we-ditched-wordpress-for-hugo"
+translationKey: "hugo-operations"
+featureimage: "img/editorial/hugo.webp"
+description: "A factual look at the Tikklabs Hugo setup, its deployment checks, multilingual settings and maintenance trade-offs versus WordPress."
+showToc: true
 ---
 
-**Core Summary**: Discover why modern, high-traffic tech blogs are abandoning WordPress in favor of Hugo. Learn how adopting a Static Site Generator (SSG) eliminates database bottlenecks, secures your server, and automatically achieves near-perfect Lighthouse scores for elite Google SEO rankings.
+Tikklabs runs a bilingual blog using **Hugo, the Blowfish theme and GitHub Pages**. This is a description of the current setup, not a claim that we operated a WordPress site and migrated it.
 
-## 1. The Death of the Monolith: Why WordPress Failed Us
-For over a decade, WordPress was the undisputed king of CMS platforms. However, running a modern blog on it is like driving a heavy, rusty tank in a Formula 1 race. The reliance on bloated PHP scripts, constant database queries, and vulnerable third-party plugins created massive technical debt for our team. We needed a system where the architecture itself enables elite performance, not hinders it.
+Hugo is not the best choice for every publisher. Publishing can be automated, but theme changes, build failures and search settings still need an operator. Here is what this setup actually does and how its maintenance differs from WordPress.
 
-## 2. Hugo: The Supersonic SSG Architecture
-Enter Hugo. Written in Go, Hugo is a blindingly fast Static Site Generator that outputs flat HTML, CSS, and JS files. There is no dynamic database layer to query on page load. When a user requests an article, the server simply serves a pre-compiled file in milliseconds. 
-*  **Zero Database Latency**: No waiting for PHP to render WordPress themes.
-*  **Unhackable Surface**: By removing SQL databases from the public-facing server, we completely eliminated 99% of common web vulnerabilities like SQL injections.
-*  **Next-Gen Web Core Vitals**: Because the output consists of pure frontend assets, achieving a 100/100 Google Lighthouse score becomes the default standard, supercharging our SEO visibility.
+## How a post reaches this website
 
-## 3. Unbreakable Global SEO & `x-default` Routing
-One of the most critical challenges for an international bilingual blog is maintaining immaculate `hreflang` tags to prevent Google from losing your global rankings. Relying on WordPress translation plugins often ends in bloated markup and broken redirects.
+1. Update the source article and images in the repository.
+2. GitHub Actions runs Hugo to generate HTML.
+3. After a successful build, GitHub Pages publishes the generated files.
+4. Check the live article, images and links at their real URLs.
 
-With Hugo's built-in i18n variables like `.Language.Lang` and `.AllTranslations`, we hardcoded a foolproof, automated `x-default` system. Our SEO tags are now surgically precise, dynamically mapping English articles directly to their exact Korean counterparts—with zero plugin overhead. Check out our approach to reclaiming mental architecture and environment control in our previous post: [How to Block YouTube Shorts]({{< relref "2026-03-29-how-to-block-youtube-shorts.md" >}}).
+Changing a repository file is different from publishing a page. If deployment fails, visitors may still see the previous version. **Checking the live page** is the final step.
 
-## Conclusion: Build For Speed, Rank For Authority
-Transitioning from WordPress to Hugo isn't just a technical upgrade; it is a strategic business decision to reclaim our architecture. We no longer spend hours updating toxic plugins or fighting server caches. We just write markdown, and the pipeline does the rest. If you are serious about raw web performance and dominating tech SEO, it is time to decouple your content from legacy databases.
+![From editing an article to checking the published page](img/editorial/hugo-publish-en.svg "The current Tikklabs publishing flow.")
+
+## Hugo and WordPress maintain different things
+
+| Area | Hugo + GitHub Pages | WordPress |
+|---|---|---|
+| Editing | Files, with an editor or automation | Primarily the admin editor |
+| Serving pages | Prebuilt static files | Server-generated or cached pages |
+| Server maintenance | Static deployment pipeline | Hosting, PHP and database environment |
+| Additional features | Templates, external services or development | Plugins and other integrations |
+| Cost comparison | Domain, external features and maintenance | Hosting, domain, paid features and maintenance |
+
+A well-configured WordPress site can be fast. A Hugo site can still be slowed by large images, advertising and scripts. Compare actual pages with comparable features rather than treating the generator as a performance guarantee.
+
+## Search settings we actually manage
+
+### Production URLs and sitemaps
+
+The production `baseURL` is `https://tikklabs.com/`. We check that local-development URLs do not appear in deployed sitemaps.
+
+On October 5, 2026, the English and Korean sitemaps each contained 11 URLs. Automatic tag, category, series and author listings are excluded and carry `noindex, follow`. This is a choice for the current content structure, not a universal requirement.
+
+### Corresponding language pages
+
+Related translations share a `translationKey`. Hugo uses that relationship to supply language links and alternate-page information. We verify the resulting English and Korean pages rather than checking only the source field.
+
+`hreflang` identifies corresponding language versions; it is not a ranking score or forced redirect. The optional `x-default` value identifies a fallback for unmatched languages or regions. We do not claim an implementation that the site does not contain.
+
+### Internal links and publishing state
+
+Keep existing URLs when updating titles. Links need the actual published path, including `/post/` where applicable. A link to an unpublished draft cannot supply the explanation a reader expects.
+
+## What this architecture cannot guarantee
+
+Prebuilt pages reduce the need to assemble article content from a database on each visit. They do not eliminate risks in repository accounts, deployment permissions, third-party scripts or integrated services.
+
+Hugo does not guarantee a perfect Lighthouse score or high search rankings. Check performance after adding images or advertising, including on mobile. Useful content and reliable navigation remain publishing responsibilities.
+
+## Who may prefer this setup
+
+File-based publishing can suit an informational blog with automated production and relatively few interactive features. WordPress may be more convenient for teams that want an admin editor and extensive plugin workflows.
+
+For Tikklabs, updating content, generating the site, deploying and checking the live page belong to one publishing task. The useful comparison is whether the maintenance process supports consistent, helpful articles.
+
+### References
+
+- [Hugo deployment on GitHub Pages](https://gohugo.io/host-and-deploy/host-on-github-pages/)
+- [Hugo multilingual content](https://gohugo.io/content-management/multilingual/)
+- [Google language-version guidance](https://developers.google.com/search/docs/specialty/international/localized-versions)
+- [Tikklabs source repository](https://github.com/rohbomb/rohbomb.github.io)
+
+[Start with the topic guides](/guides/)

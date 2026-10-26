@@ -1,88 +1,80 @@
 ---
-title: "The Ultimate Guide to Reclaiming Focus: How to Block YouTube Shorts and Feed (2026 Updated)"
+title: "How to Block YouTube Shorts on PC, iPhone and Android"
 date: 2026-03-29T16:00:00+09:00
+lastmod: 2026-10-05T13:46:25+09:00
 draft: false
-categories:
- - Productivity
- - Tech
-tags:
- - Digital Detox
- - YouTube
- - Focus
- - Unhook
-author: "Tikklabs Editor"
+authors: ["tikklabs-editor"]
+categories: ["Digital Wellbeing"]
+tags: ["YouTube", "Unhook"]
 slug: "how-to-block-youtube-shorts"
 translationKey: "youtube-shorts-guide"
-cover:
- image: "/images/focus_thumbnail.png"
- alt: "A glowing brain focused on a laptop screen, blocking out distracting apps"
- caption: "Mastering K-Efficiency through digital environment control."
- relative: false
+featureimage: "img/editorial/shorts.webp"
+description: "Hide desktop Shorts and recommendations with Unhook, set a zero-minute limit in the mobile app, and understand what these controls do and how to undo them."
 showToc: true
-TocOpen: false
 ---
 
-In an era where algorithmic content is weaponized to hijack human attention, your ability to focus is your most valuable asset. The modern dopamine economy thrives on endless swiping, specifically through aggressive short-form video features like **YouTube Shorts** and infinite feeds.
+If a quick YouTube search keeps turning into a long viewing session, changing what appears on screen may help. Start by distinguishing **reducing recommendations, hiding interface elements, and setting a viewing limit**. These controls have different scopes.
 
-Here comes the truth: You don’t lack willpower; you are just fighting a multi-billion dollar supercomputer engineered to keep you hooked. If you want to reclaim your time and achieve deep work, you must architect an environment where distraction is structurally impossible.
+Instructions were checked against official help pages and developer listings on October 5, 2026. Menu labels and hiding behavior can vary by version.
 
-## Why YouTube Shorts Ruins Your Dopamine Baseline
+![Browser hiding versus app viewing limits](img/editorial/shorts-scope-en.svg "A scope diagram, not a screenshot of the app.")
 
-The danger of infinite scrolling feeds isn't just wasted time—it’s the biological rewiring of your baseline satisfaction.
+## Choose a method for your device
 
-- **Dopamine Thrashing**: Each 15-second swipe offers a micro-hit of dopamine. This spikes your reward circuitry so violently that normal tasks (like reading, coding, or studying) feel painfully boring by comparison.
-- **Context Switching**: Rapidly changing topics destroys your working memory. Your brain cannot consolidate deep thought when context switches every few seconds.
-- **The "Slot Machine" Effect**: You swipe not because you expect great content, but because of the *variable reward*—the slim chance that the next video *might* be funny. This is the exact mechanism used in casinos.
+| Environment | Method | Scope and limitation |
+|---|---|---|
+| Desktop Chrome, Edge, Firefox | Unhook | Hides elements in that browser. Does not configure the YouTube app or other browsers. |
+| Firefox for Android | Unhook | The developer lists mobile-web support. Does not affect the native app. |
+| Android or iPhone YouTube app | Shorts feed limit | Includes zero minutes; personal-account reminders can be ignored. |
+| App Home feed | Show fewer Shorts | Recommendation feedback, rather than an access block. |
+| Account history settings | Delete and turn off watch history | YouTube documents this for removing Home recommendations; deletion loses existing history. |
 
-To protect your cognitive bandwidth, **you need friction.**
+## Desktop: hide recommendations with Unhook
 
----
+Install through the developer's official listing, checking that the publisher is Unhook.
 
-## ️ Step-by-Step Defense: How to Block Shorts & Feed
+- [Chrome listing](https://chromewebstore.google.com/detail/unhook-remove-youtube-rec/khncfooichmfjbepaaaebmommgaepoid)
+- [Firefox listing](https://addons.mozilla.org/en-US/firefox/addon/youtube-recommended-videos/)
+- [Edge listing](https://microsoftedge.microsoft.com/addons/detail/unhook-remove-youtube-r/hebpjnnclppdnfghdnmhgdljmjpfhggk)
 
-The goal is to turn YouTube back into a utility—a searchable video library—instead of an aggressive recommendation engine.
+1. Install the extension and reload YouTube.
+2. Open its popup and enable **Hide Homepage Feed**.
+3. Enable its Shorts option. The Chrome description lists **Hide YouTube Shorts**, while Firefox lists **Hide Shorts Tab**; labels can differ.
+4. Optionally hide related videos and disable autoplay.
+5. Check Home, search results, a regular video and a direct Shorts link separately.
 
-### Method 1: The "Unhook" Extension (Immediate Relief)
+Hiding the interface does not establish that every Shorts URL is inaccessible. YouTube changes can also affect the result. If normal viewing breaks, turn options off individually or disable the extension and reload.
 
-For Chrome, Edge, and Firefox users, **Unhook** is the ultimate weapon against the YouTube algorithm.
+## Mobile app: set a Shorts feed limit
 
-1. **Install the Extension**: Search for "Unhook - Remove YouTube Recommended Videos" on your browser's extension store.
-2. **Toggle the Shields**:
-  - **Hide Feed**: Disables the homepage grid. You will only see a search bar.
-  - **Hide Shorts**: Completely removes the Shorts shelf and tab.
-  - **Hide Up Next & Comments**: (Optional) Prevents the rabbit hole of side-bar recommendations.
-3. **The Result**: You now open YouTube, search exactly what you need, watch it, and leave—with zero visual noise pulling you sideways.
+YouTube's official instructions specify signing in, opening **You → Settings → Time management → Shorts feed limit**, then selecting a duration, including zero.
 
-### Method 2: Custom uBlock Origin Filters (Advanced Defense)
+When the limit is reached, a reminder appears. The documentation says users can dismiss or ignore it. Treat this personal-account setting as a viewing reminder, not an irreversible lock. If the menu is missing, check your app update and account state against the current help page. Do not assume the same setting works on desktop web.
 
-If you prefer using adblockers like uBlock Origin without installing extra extensions, you can surgically block specific UI components.
+[Official instructions: Set a Shorts feed limit](https://support.google.com/youtube/answer/16671528?hl=en)
 
-1. Open the uBlock Origin dashboard and head to the **My filters** tab.
-2. Paste the following network filters to kill Shorts:
-  ```css
-  ! Block YouTube Shorts entirely
-  youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row > ytd-rich-item-renderer:has(ytd-rich-grid-media a[href^="/shorts/"])
-  youtube.com##ytd-reel-shelf-renderer
-  youtube.com##[page-subtype="shorts"]
-  ```
-3. Click **Apply Changes**. Shorts will no longer render on your screen.
+## Reduce recommendations without an extension
 
----
+In the app's Home feed, open the menu above a Shorts grid and choose **Show fewer Shorts**. This reduces recommendations; it does not remove access to every Short.
 
-## The "K-Efficiency" Mindset: Focus as a Strategy
+YouTube also documents deleting and turning off watch history if you do not want Home recommendations. Deletion loses your previous watch history, so consider whether that trade-off is necessary. This is not a Shorts-only control.
 
-In South Korea, where the "Pali-Pali" (빨리빨리, meaning "hurry up") culture meets fierce academic and professional competition, managing time isn't just a soft skill—it’s survival. We call this hyper-focused, distraction-resilient state **"K-Efficiency."**
+[Official instructions: Manage recommendations and search results](https://support.google.com/youtube/answer/6342839?hl=en)
 
-How to adopt the K-Efficiency framework for your digital life:
+## Why the original uBlock Origin is not a Chrome installation option
 
-- **Purpose-Driven Logging**: Never open a browser "just to see." Have a clear objective before hitting Enter.
-- **Friction Design**: Make bad habits difficult. Log out of social apps every time you close them. Make the passwords long. Add friction to the dopamine.
-- **Ruthless Elimination**: If a tool serves no productivity purpose and only acts as an algorithmic sinkhole—delete it. 
+Current Chrome no longer supports the Manifest V2 framework used by original uBlock Origin. Firefox's uBlock Origin and uBlock Origin Lite are separate products. Cosmetic filters that hide page elements are also different from blocking every Shorts URL.
 
-### Conclusion
+Start with the extension options or the app controls above rather than maintaining custom selectors. If you already use filters, check that regular videos, search and subscriptions remain visible.
 
-The internet should be a tool you use, not a tool that uses you. By eliminating the YouTube homepage feed and disabling Shorts, you instantly reclaim hours of lost time and protect your dopamine baseline. 
+[Chrome's official support timeline](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)
 
-Take back your digital sovereignty today. Install the blockers, kill the feed, and get back to deep work.
+## Measure the effect on your own use
 
-> **"If you don't control your environment, your environment controls you."** — *TIKKLES Production Team*
+These settings cannot guarantee a particular number of hours saved. Compare your viewing time and interruptions for a few days before and after making a change.
+
+The goal is easier intentional viewing. If hiding Home recommendations is enough, you do not need to change every available setting.
+
+[Related guide: A checklist for verifying AI answers](/post/stone-age-brain-vs-gpt/)
+
+[Start with the topic guides](/guides/)

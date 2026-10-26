@@ -11,9 +11,11 @@ type: "page"
 
 ## Topics
 
-- Software and browser settings and troubleshooting
-- AI tools and local AI workflows
-- Practical IT guides for everyday tasks and work
+- **Digital wellbeing:** organize work around notifications, feeds and AI
+- **Local AI:** tools on existing hardware, subscription costs and model licenses
+- **Free blog operations:** verified publishing, search and multilingual troubleshooting
+
+Find the related articles in our [topic guides](/guides/).
 
 ## Editorial principles
 
