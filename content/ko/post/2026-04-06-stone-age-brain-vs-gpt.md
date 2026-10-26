@@ -3,9 +3,9 @@ title: "석기시대 뇌 vs GPT: 현대 직장인 번아웃의 과학적 이유�
 date: 2026-04-06T14:20:00+09:00
 categories: ["Productivity"]
 series: ["Productivity-Hacks"]
-tags: ["IT생산성", "AI과부하", "번아웃", "GPT", "Claude", "Gemini", "아서G"]
+tags: ["IT생산성", "AI과부하", "번아웃", "GPT", "Claude", "Gemini"]
 pinned: true
-authors: ["arthurg"]
+authors: ["tikklabs-editor"]
 slug: "stone-age-brain-vs-gpt"
 translationKey: "stone-age-brain"
 cover:
@@ -51,7 +51,7 @@ AI가 등장하면서 작업 효율성은 이전과는 비교도 할 수 없을 
 * **최종 결정의 권위를 지켜라**: AI가 아무리 완벽해 보이는 답안을 내밀어도, 그것이 처음 설정한 목적지와 부합하는지 묻는 비판적 사고를 멈추지 마라. 기계의 판단에 무비판적으로 의존할수록 주도권은 작아지고 정체 모를 불안감만 커진다. 결정권은 오직 인간의 몫이다.
 * **아날로그적 정돈**: 정보의 바다에서 멘탈이 흔들린다면 모니터에서 눈을 떼고 종이와 펜을 들어라. 우리 '석기시대 뇌'에게 가장 편안한 정돈법은 매끄러운 타이핑이 아니라, 서투르더라도 직접 손으로 긋고 써 내려가는 아날로그적 사유의 시간이다.
 
-## 아서 G. (Arthur G.)의 시선: 다시 도구의 주인으로
+## Tikklabs Editor의 시선: 다시 도구의 주인으로
 
 생산성의 폭발은 겉보기엔 축복이지만, 그 주인이자 통제자가 되지 못하면 우리는 그저 매일 정보의 홍수 속에 익사하며 대학원 과제에 찌든 학생처럼 뇌의 무력감을 경험할 뿐이다. 
 

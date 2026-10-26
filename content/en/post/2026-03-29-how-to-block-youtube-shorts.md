@@ -10,7 +10,7 @@ tags:
  - YouTube
  - Focus
  - Unhook
-author: "Arthur G."
+author: "Tikklabs Editor"
 slug: "how-to-block-youtube-shorts"
 translationKey: "youtube-shorts-guide"
 cover:

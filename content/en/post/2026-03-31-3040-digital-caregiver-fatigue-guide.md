@@ -7,7 +7,7 @@ categories: ["Senior-Tech 101"]
 series: ["Mother-AI"]
 tags: ["DigitalCaregiving", "SeniorTech", "AgingParents", "TechSupport", "DigitalDivide", "AdultChildren"]
 pinned: true
-author: "Arthur G."
+author: "Tikklabs Editor"
 slug: "3040-digital-caregiver-fatigue-guide"
 translationKey: "3040-digital-caregiver"
 cover:

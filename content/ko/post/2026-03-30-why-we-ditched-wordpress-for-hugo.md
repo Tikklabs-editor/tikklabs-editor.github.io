@@ -1,7 +1,7 @@
 ---
 title: "워드프레스 대신 Hugo를 선택한 이유: 완벽한 기술적 SEO 가이드 (2026)"
 date: 2026-03-30
-author: "Arthur G. | Tech Lead"
+author: "Tikklabs Editor"
 tags: ["SEO", "Hugo", "웹 퍼포먼스", "아키텍처"]
 categories: ["Tech"]
 featured: true

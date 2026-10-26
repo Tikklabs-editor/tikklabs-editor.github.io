@@ -3,8 +3,8 @@ title: "도파민 중독 탈출 가이드: 유튜브 쇼츠와 홈 화면 피드
 date: 2026-03-29T16:00:00+09:00
 categories: ["Productivity"]
 series: ["Productivity-Hacks"]
-tags: ["디지털디톡스", "유튜브쇼츠차단", "도파민관리", "IT생산성", "아서G"]
-author: "Arthur G."
+tags: ["디지털디톡스", "유튜브쇼츠차단", "도파민관리", "IT생산성"]
+author: "Tikklabs Editor"
 slug: "how-to-block-youtube-shorts"
 translationKey: "youtube-shorts-guide"
 cover:
@@ -70,7 +70,7 @@ description: "알고리즘의 공격으로부터 당신의 주의력을 지키�
 
 ---
 
-## 아서 G.의 시선: 도구의 주인이 되라
+## Tikklabs Editor의 시선: 도구의 주인이 되라
 
 인터넷은 당신이 쓰는 도구여야지, 당신을 써먹는 도구가 되어서는 안 됩니다. 쇼츠와 피드를 제거하는 순간, 당신은 하루에 최소 1~2시간의 자유 시간과 소중한 인지 에너지를 되찾게 될 것입니다.
 

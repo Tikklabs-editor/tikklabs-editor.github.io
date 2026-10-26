@@ -7,7 +7,7 @@ categories: ["Senior-Tech 101"]
 series: ["Mother-AI"]
 tags: ["디지털부양", "부모님스마트폰", "5060디지털격차", "노년층IT", "3040스트레스", "디지털소외"]
 pinned: true
-author: "Arthur G."
+author: "Tikklabs Editor"
 slug: "3040-digital-caregiver-fatigue-guide"
 translationKey: "3040-digital-caregiver"
 cover:

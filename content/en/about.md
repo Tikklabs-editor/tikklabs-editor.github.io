@@ -1,28 +1,22 @@
 ---
-title: "About TIKKLES"
-description: "TIKKLES is a personal curation blog by Arthur G., focused on bridging the digital divide and mastering productivity tools in the AI era."
+title: "About Tikklabs"
+description: "Tikklabs Editor turns IT tools and productivity topics into clear, practical guides."
 date: 2026-03-30
 type: "page"
 ---
 
-# TIKKLES : IT, so mellow.
+# About Tikklabs
 
-Welcome. I'm **Arthur G.**, the curator behind TIKKLES. 
+**Tikklabs Editor** is the editorial byline for Tikklabs, covering IT tools, productivity, and practical troubleshooting.
 
-This space started from a very personal place: watching my aging parents struggle with everyday technology, while simultaneously feeling my own generation drowning in the relentless flood of new AI tools and productivity hacks. 
+## Topics
 
-We are living in an era where taking a taxi, paying a bill, or just getting through the workday requires constant adaptation. TIKKLES is here to make that adaptation a little less overwhelming, and a lot more *mellow*.
+- Software and browser settings and troubleshooting
+- AI tools and local AI workflows
+- Practical IT guides for everyday tasks and work
 
-## Core Topics We Cover
+## Editorial principles
 
-We go beyond superficial gadget reviews or clickbait tech news. Our focus is on actionable, empathetic guides:
+Our goal is to provide concrete instructions readers can follow. We check features and requirements against official sources and distinguish direct verification from information reported by those sources. We do not invent personal experiences or performance measurements.
 
-*   **Digital Literacy & Caregiving**: Step-by-step troubleshooting and setup guides designed to make software, web environments, and apps accessible to all generations. (Because "just tap the icon" isn't a helpful instruction for someone who didn't grow up with touchscreens.)
-*   **Life Hacking & Productivity**: Proven strategies—from browser optimization techniques to dopamine detox routines—that enhance mental clarity and drive peak efficiency (K-Efficiency).
-*   **Actionable Tech Curation**: Distilling the overwhelming flood of global IT trends (like ChatGPT, Claude, and local AI models) into practical insights you can actually use.
-
-## Our Mission
-
-Technology should be a powerful lever that earns you time, not a source of stress that drains it. My mission is to systematize fragmented tech knowledge, ensuring every reader—regardless of their age or tech-savviness—can confidently architect a better, more efficient way of living.
-
-Thanks for stopping by. Let's navigate this digital world together, one mellow step at a time.
+English and Korean guides are adapted to their readers’ environments. We update relevant content when significant errors or product changes are identified.

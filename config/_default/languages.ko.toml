@@ -14,7 +14,6 @@ contentDir = "content/ko"
   description = "IT 생산성 및 로컬 AI 기술 저널"
 
 [params.author]
-  name = "Arthur G."
-  image = "img/arthur_profile.png"
+  name = "Tikklabs Editor"
   headline = "IT 생산성 및 로컬 AI 연구"
   bio = "가장 실용적인 기술 가이드를 작성합니다."

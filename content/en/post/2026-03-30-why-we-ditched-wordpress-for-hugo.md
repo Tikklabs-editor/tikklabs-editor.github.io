@@ -1,7 +1,7 @@
 ---
 title: "Why We Ditched WordPress for Hugo: Advanced SEO Architecture Guide (2026)"
 date: 2026-03-30
-author: "Arthur G. | Tech Lead"
+author: "Tikklabs Editor"
 tags: ["SEO", "Hugo", "Web Performance", "Architecture"]
 categories: ["Tech"]
 featured: true

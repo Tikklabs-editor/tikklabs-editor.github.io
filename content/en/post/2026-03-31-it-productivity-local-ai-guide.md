@@ -4,7 +4,7 @@ date: 2026-03-31T16:00:00+09:00
 categories: ["Productivity"]
 series: ["Productivity-Hacks"]
 tags: ["IT Productivity", "Cut Subscriptions", "Local AI", "Free TTS", "AntiGravity"]
-author: "Arthur G."
+author: "Tikklabs Editor"
 slug: "it-productivity-local-ai-guide"
 translationKey: "local-ai-guide"
 cover:

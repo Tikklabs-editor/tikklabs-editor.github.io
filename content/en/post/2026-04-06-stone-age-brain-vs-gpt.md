@@ -3,9 +3,9 @@ title: "Stone Age Brain vs GPT: The Scientific Reason Behind Modern Burnout and 
 date: 2026-04-06T14:20:00+09:00
 categories: ["Productivity"]
 series: ["Productivity-Hacks"]
-tags: ["IT Productivity", "AI Overload", "Burnout", "GPT", "Claude", "Gemini", "ArthurG"]
+tags: ["IT Productivity", "AI Overload", "Burnout", "GPT", "Claude", "Gemini"]
 pinned: true
-author: "Arthur G."
+author: "Tikklabs Editor"
 slug: "stone-age-brain-vs-gpt"
 translationKey: "stone-age-brain"
 cover:
@@ -55,7 +55,7 @@ We must not synchronize ourselves to the frantic speed of machines. Abandon the 
 *   **Protect the Authority of Final Decisions**: No matter how polished and perfect the answer AI provides may seem, never lose the power of critical thinking to ask if it aligns with the destination you originally set. The more uncritically you rely on the machine's judgment, the smaller your control becomes, and an unidentifiable anxiety will only grow.
 *   **Analog Organization**: If you feel your mental energy draining in the overwhelming ocean of information, occasionally take your eyes off the monitor and pick up a pen and paper. The most comfortable and powerful information organization method for our 'Stone Age brains' is not smooth typing, but the time of analog contemplation, clumsily drawing lines by hand.
 
-## Arthur G.'s Perspective: Becoming the Master of Tools Again
+## Tikklabs Editor's Perspective: Becoming the Master of Tools Again
 
 The explosion of productivity seems like a blessing on the surface, but if we do not become its masters and controllers, we will simply drown in the daily flood of information, experiencing the helplessness of a brain like a student bogged down by graduate school assignments.
 
