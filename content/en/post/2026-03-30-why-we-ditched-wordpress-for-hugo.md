@@ -46,7 +46,7 @@ A well-configured WordPress site can be fast. A Hugo site can still be slowed by
 
 The production `baseURL` is `https://tikklabs.com/`. We check that local-development URLs do not appear in deployed sitemaps.
 
-On October 5, 2026, the English and Korean sitemaps each contained 11 URLs. Automatic tag, category, series and author listings are excluded and carry `noindex, follow`. This is a choice for the current content structure, not a universal requirement.
+The Korean and English sitemaps include published articles and core pages such as the topic guide. Automatic tag, category, series and author listings are excluded and carry `noindex, follow`. This is a choice for the current content structure, not a universal requirement.
 
 ### Corresponding language pages
 
