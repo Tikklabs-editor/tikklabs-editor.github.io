@@ -4,7 +4,7 @@ description: "Three starting points for saving time, money and attention with di
 translationKey: "topic-guides"
 type: "page"
 showToc: true
-lastmod: 2026-10-05T13:56:13+09:00
+lastmod: 2026-10-05T14:20:00+09:00
 ---
 
 Tikklabs helps people doing digital work save **time, money and attention**. Our guides focus on what to change, which costs and conditions to check, and what has actually been verified. Choose the problem closest to your needs below.
@@ -22,7 +22,8 @@ This pillar covers everyday digital habits and work settings. It does not presen
 
 Start here if you repeatedly create illustrations or thumbnails and want to process them on hardware you already own. Examine setup requirements, processing location, model licenses, electricity and maintenance time rather than relying on the word “free.”
 
-- **Generate a first image:** [Start ComfyUI and check commercial-use licenses](/post/it-productivity-local-ai-guide/) covers Windows setup, an SDXL checkpoint and the first generation steps.
+- **Understand the system first:** [The local AI pillar guide](/local-ai/) explains local versus open-source AI, practical tradeoffs and the full image, video and TTS learning path.
+- **Generate a first image:** [Install ComfyUI on Windows and generate a first image](/post/it-productivity-local-ai-guide/) covers Windows setup, an SDXL checkpoint and the first generation steps.
 - **Decide what to move locally:** Use the cost comparison in that guide to identify a repeatable task. Confirm it works on your existing PC before reducing a subscription. Image generation, speech synthesis and chat models require different setups.
 
 We do not invent benchmarks or claim subscription savings we have not measured. When direct execution records are available, they should include hardware, models, settings and results. An open-source application does not automatically grant commercial rights to every model or output used with it.

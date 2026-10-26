@@ -1,7 +1,7 @@
 ---
-title: "Can Local AI Replace Your Subscription? Start ComfyUI and Check Licenses"
+title: "Install ComfyUI and generate a first image on Windows with SDXL"
 date: 2026-03-31T16:00:00+09:00
-lastmod: 2026-10-05T13:46:25+09:00
+lastmod: 2026-10-05T14:20:00+09:00
 draft: false
 authors: ["tikklabs-editor"]
 categories: ["Local AI"]
@@ -9,13 +9,13 @@ tags: ["ComfyUI", "SDXL", "Local AI"]
 slug: "it-productivity-local-ai-guide"
 translationKey: "local-ai-guide"
 featureimage: "img/editorial/local-ai.webp"
-description: "Set up a first ComfyUI image workflow, troubleshoot common issues, and compare local costs and model licenses before cancelling subscriptions."
+description: "Prepare ComfyUI on Windows, generate a first SDXL image, troubleshoot basic issues and check model-license cautions."
 showToc: true
 ---
 
-Before cancelling an image-generation subscription, test whether your existing PC can handle one repeatable job. Local AI runs a model on your computer. A fully local workflow can avoid per-generation cloud credits, but it still uses electricity, hardware and maintenance time.
+This is the next step after the [local AI pillar guide](/local-ai/). Start with that guide if you first need the difference between local and open-source AI, the available production areas and the cost model.
 
-This guide covers a first ComfyUI image workflow and a cost-and-license checklist. It does not provide measured performance claims for a particular GPU.
+This guide narrows the task to **preparing ComfyUI on Windows and confirming one SDXL image**. If ComfyUI is already installed, identify the installation type and model folder rather than reinstalling it, then continue at the first-image steps. This is not a measured benchmark for a particular GPU.
 
 ## Choose one workload to move first
 
@@ -73,6 +73,6 @@ Move one recurring job first. Reduce the subscription only when local quality an
 
 Documentation and license check: October 5, 2026.
 
-[Related guide: Verify AI answers before using them](/post/stone-age-brain-vs-gpt/)
+[Related guide: Reduce digital overload and task switching](/post/stone-age-brain-vs-gpt/)
 
-[Start with the topic guides](/guides/)
+[See the complete local AI series](/local-ai/)

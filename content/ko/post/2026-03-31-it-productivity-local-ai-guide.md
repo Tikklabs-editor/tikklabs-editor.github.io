@@ -1,7 +1,7 @@
 ---
-title: "로컬 AI로 구독료 줄이기: ComfyUI 시작과 상업용 라이선스 확인"
+title: "ComfyUI 설치와 첫 이미지 생성: Windows·SDXL 시작 가이드"
 date: 2026-03-31T16:00:00+09:00
-lastmod: 2026-10-05T13:46:25+09:00
+lastmod: 2026-10-05T14:20:00+09:00
 draft: false
 authors: ["tikklabs-editor"]
 categories: ["Local AI"]
@@ -9,13 +9,13 @@ tags: ["ComfyUI", "SDXL", "Local AI"]
 slug: "it-productivity-local-ai-guide"
 translationKey: "local-ai-guide"
 featureimage: "img/editorial/local-ai.webp"
-description: "Windows에서 ComfyUI와 SDXL로 첫 이미지를 만드는 절차, 오류 확인법, 비용 계산과 TTS 상업용 라이선스 주의점을 안내합니다."
+description: "Windows에서 ComfyUI를 준비하고 SDXL로 첫 이미지를 만드는 절차, 기본 오류 확인법과 모델 라이선스 주의점을 안내합니다."
 showToc: true
 ---
 
-AI 이미지 구독료를 줄이고 싶다면 먼저 **이미 가지고 있는 PC에서 반복 작업을 처리할 수 있는지** 확인하는 것이 좋습니다. 로컬 AI는 내 컴퓨터에서 모델을 실행하는 방식입니다. 매번 생성할 때 외부 서비스의 크레딧을 소비하지 않는 구성을 만들 수 있지만, 전기·장비·관리 시간까지 없어지는 것은 아닙니다.
+이 글은 [로컬 AI 입문 필러 가이드](/ko/local-ai/)의 다음 단계입니다. 로컬 AI와 오픈소스 AI의 차이, 가능한 제작 영역, 비용 구조를 먼저 알고 싶다면 필러 가이드부터 읽으세요.
 
-이 글은 ComfyUI로 첫 이미지 생성 환경을 준비하는 절차와, 구독을 줄이기 전에 따져볼 비용·라이선스 기준을 설명합니다. 특정 PC의 생성 속도를 측정한 벤치마크는 아닙니다.
+여기서는 범위를 **Windows에서 ComfyUI를 준비하고 SDXL로 첫 이미지 한 장을 확인하는 과정**으로 좁힙니다. 설치만 해둔 독자는 설치를 반복하지 말고, 현재 실행 방식과 모델 폴더를 확인한 뒤 이미지 생성 단계부터 진행하세요. 특정 PC의 생성 속도를 측정한 벤치마크는 아닙니다.
 
 ## 로컬 AI가 맞는 작업부터 고르세요
 
@@ -75,6 +75,6 @@ TTS에서도 이 구분이 중요합니다. **XTTS-v2의 공개 라이선스는 
 
 확인 기준: 2026년 10월 5일 ComfyUI 공식 문서와 모델 배포자의 라이선스.
 
-[함께 읽기: AI 답변 검증 체크리스트](/ko/post/stone-age-brain-vs-gpt/)
+[함께 읽기: 디지털 과부하와 작업 전환 줄이기](/ko/post/stone-age-brain-vs-gpt/)
 
-[주제별 시작 가이드](/ko/guides/)
+[로컬 AI 시리즈 전체 목차](/ko/local-ai/)
