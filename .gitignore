@@ -1,6 +1,6 @@
-# Hugo default output
-public
-resources
+# Hugo output
+public/
+resources/
 .hugo_build.lock
 
 # OS
@@ -8,14 +8,18 @@ resources
 Thumbs.db
 desktop.ini
 
-# Node
-node_modules
+# Dependencies and generated files
+node_modules/
+__pycache__/
+*.py[cod]
+tina/__generated__/
 
-# Env & Secrets (Critical) - .env 파일만 정밀 차단
+# Secrets and credentials
 .env
-src/bot/.env
-src/bot/.env.*
-!src/bot/.env.example
-
-# Tina
-tina/__generated__
+.env.*
+**/.env
+**/.env.*
+*.pem
+*.key
+credentials*.json
+service-account*.json
