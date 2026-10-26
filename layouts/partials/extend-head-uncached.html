@@ -1,3 +1,8 @@
+{{/* Automatic classification listings remain navigable but are not search landing pages. */}}
+{{- if in (slice "taxonomy" "term") .Kind -}}
+<meta name="robots" content="noindex, follow">
+{{- end -}}
+
 {{/* (Edited by Win-AG웅) */}}
 <!-- ============================================================
      한국어 접속자 안내 토스트 (글로벌 진입 대응)
