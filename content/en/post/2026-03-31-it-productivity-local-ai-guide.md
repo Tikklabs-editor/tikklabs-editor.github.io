@@ -9,6 +9,7 @@ tags: ["ComfyUI", "SDXL", "Local AI"]
 slug: "it-productivity-local-ai-guide"
 translationKey: "local-ai-guide"
 featureimage: "img/editorial/local-ai.webp"
+images: ["img/editorial/local-ai.webp"]
 description: "Prepare ComfyUI on Windows, generate a first SDXL image, troubleshoot basic issues and check model-license cautions."
 showToc: true
 ---

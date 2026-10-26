@@ -9,6 +9,7 @@ tags: ["AI", "Digital Wellbeing", "Focus"]
 slug: "stone-age-brain-vs-gpt"
 translationKey: "stone-age-brain"
 featureimage: "img/editorial/ai-check.webp"
+images: ["img/editorial/ai-check.webp"]
 description: "AI 답변·알림·추천 피드로 작업이 갈라질 때 완료 조건, 알림 관리, 작업 기록으로 환경을 정리하는 실용 가이드입니다."
 showToc: true
 ---

@@ -9,6 +9,7 @@ tags: ["Hugo", "GitHub Pages", "SEO"]
 slug: "2026-03-30-why-we-ditched-wordpress-for-hugo"
 translationKey: "hugo-operations"
 featureimage: "img/editorial/hugo.webp"
+images: ["img/editorial/hugo.webp"]
 description: "Tikklabs의 Hugo·Blowfish·GitHub Pages 구성, 게시 절차, 다국어 SEO 설정과 WordPress 대비 관리 차이를 설명합니다."
 showToc: true
 ---

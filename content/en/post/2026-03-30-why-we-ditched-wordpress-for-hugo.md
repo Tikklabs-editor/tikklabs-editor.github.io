@@ -9,6 +9,7 @@ tags: ["Hugo", "GitHub Pages", "SEO"]
 slug: "2026-03-30-why-we-ditched-wordpress-for-hugo"
 translationKey: "hugo-operations"
 featureimage: "img/editorial/hugo.webp"
+images: ["img/editorial/hugo.webp"]
 description: "A factual look at the Tikklabs Hugo setup, its deployment checks, multilingual settings and maintenance trade-offs versus WordPress."
 showToc: true
 ---

@@ -9,6 +9,7 @@ tags: ["ComfyUI", "SDXL", "Local AI"]
 slug: "it-productivity-local-ai-guide"
 translationKey: "local-ai-guide"
 featureimage: "img/editorial/local-ai.webp"
+images: ["img/editorial/local-ai.webp"]
 description: "Windows에서 ComfyUI를 준비하고 SDXL로 첫 이미지를 만드는 절차, 기본 오류 확인법과 모델 라이선스 주의점을 안내합니다."
 showToc: true
 ---

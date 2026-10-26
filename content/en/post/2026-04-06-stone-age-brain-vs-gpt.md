@@ -9,6 +9,7 @@ tags: ["AI", "Digital Wellbeing", "Focus"]
 slug: "stone-age-brain-vs-gpt"
 translationKey: "stone-age-brain"
 featureimage: "img/editorial/ai-check.webp"
+images: ["img/editorial/ai-check.webp"]
 description: "A practical work log and settings checklist for managing interruptions, AI chats and recommendation feeds."
 showToc: true
 ---

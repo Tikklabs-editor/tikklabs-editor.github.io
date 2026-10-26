@@ -9,6 +9,7 @@ tags: ["YouTube", "Unhook"]
 slug: "how-to-block-youtube-shorts"
 translationKey: "youtube-shorts-guide"
 featureimage: "img/editorial/shorts.webp"
+images: ["img/editorial/shorts.webp"]
 description: "Unhook으로 PC 유튜브 쇼츠와 홈 추천을 숨기는 방법, 모바일 앱에서 0분 제한을 설정하는 방법과 해제·복구 방법을 안내합니다."
 showToc: true
 ---

@@ -9,6 +9,7 @@ tags: ["YouTube", "Unhook"]
 slug: "how-to-block-youtube-shorts"
 translationKey: "youtube-shorts-guide"
 featureimage: "img/editorial/shorts.webp"
+images: ["img/editorial/shorts.webp"]
 description: "Hide desktop Shorts and recommendations with Unhook, set a zero-minute limit in the mobile app, and understand what these controls do and how to undo them."
 showToc: true
 ---

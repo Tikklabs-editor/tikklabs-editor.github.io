@@ -10,6 +10,7 @@ categories: ["Local AI"]
 tags: ["Local AI", "ComfyUI", "Generative AI"]
 translationKey: "local-ai-pillar"
 featureimage: "img/editorial/local-ai-pillar.webp"
+images: ["img/editorial/local-ai-pillar.webp"]
 showToc: true
 ---
 
