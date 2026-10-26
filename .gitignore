@@ -1,0 +1,21 @@
+# Hugo default output
+public
+resources
+.hugo_build.lock
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules
+
+# Env & Secrets (Critical) - .env 파일만 정밀 차단
+.env
+src/bot/.env
+src/bot/.env.*
+!src/bot/.env.example
+
+# Tina
+tina/__generated__
