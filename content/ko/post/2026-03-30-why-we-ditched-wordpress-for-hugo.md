@@ -76,6 +76,6 @@ Tikklabs는 원고와 이미지 수정, 빌드, 배포, 실제 페이지 확인�
 - [Hugo의 GitHub Pages 배포 안내](https://gohugo.io/host-and-deploy/host-on-github-pages/)
 - [Hugo 다국어 페이지 연결](https://gohugo.io/content-management/multilingual/)
 - [Google의 언어별 페이지 안내](https://developers.google.com/search/docs/specialty/international/localized-versions)
-- [Tikklabs 공개 저장소](https://github.com/rohbomb/rohbomb.github.io)
+- [Tikklabs 공개 저장소](https://github.com/Tikklabs-editor/rohbomb.github.io)
 
 [주제별 시작 가이드](/ko/guides/)

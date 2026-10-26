@@ -4,5 +4,5 @@ name: "Tikklabs Editor"
 translationKey: "tikklabs-editor-profile"
 bio: "Practical guides to IT tools, productivity, and troubleshooting."
 social:
-  - github: "https://github.com/rohbomb/rohbomb.github.io"
+  - github: "https://github.com/Tikklabs-editor/rohbomb.github.io"
 ---

@@ -76,6 +76,6 @@ For Tikklabs, updating content, generating the site, deploying and checking the 
 - [Hugo deployment on GitHub Pages](https://gohugo.io/host-and-deploy/host-on-github-pages/)
 - [Hugo multilingual content](https://gohugo.io/content-management/multilingual/)
 - [Google language-version guidance](https://developers.google.com/search/docs/specialty/international/localized-versions)
-- [Tikklabs source repository](https://github.com/rohbomb/rohbomb.github.io)
+- [Tikklabs source repository](https://github.com/Tikklabs-editor/rohbomb.github.io)
 
 [Start with the topic guides](/guides/)

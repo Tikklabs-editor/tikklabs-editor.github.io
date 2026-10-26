@@ -18,5 +18,5 @@ contentDir = "content/en"
   headline = "IT productivity & local AI research"
   bio = "Writing the most practical guide for tech and productivity."
   links = [
-    { github = "https://github.com/rohbomb/rohbomb.github.io" },
+    { github = "https://github.com/Tikklabs-editor/rohbomb.github.io" },
   ]
